@@ -19,10 +19,5 @@ int main(){
         if(arr[j]==find){
             cout<<arr[j]<<endl<<"Index is: "<<j;
         }
-        else{
-            cout<<endl<<"Element is not Available: "<<find;
-            break;
-        }
-        
     }
 }
