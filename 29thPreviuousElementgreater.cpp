@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    int arr[] = {7, 2, 4, 8, 9,10,5,15,3};
+    int arr[] = {7,9,5,14,25,18,8,4,2,3};
     int size = sizeof(arr) / sizeof(arr[0]); 
 
     int count = 1; 
-    int maxSoFar = arr[0];
+    int max = arr[0];
 
-    for (int i = 1; i < size; ++i) {
-        if (arr[i] > maxSoFar) {
+    for (int i = 1; i < size; i++) {
+        if (arr[i] > max) {
             count++;
-            maxSoFar = arr[i];
+            max = arr[i];
         }
     }
 
